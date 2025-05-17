@@ -3,13 +3,13 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import dessert from './../../images/desseet.png';
+import dessert from './../../images/ice.png';
 import snacks from '../../images/snacks.png';
 import juice from '../../images/adff694402db1d09870b6afe05695c79-removebg-preview.png';
 import pitha from '../../images/pitha (3).png';
 import dish from '../../images/9655f06ce499e3efea6d97eed28bf46b-removebg-preview.png';
 
-const CategorySlider = () => {
+const HeroBanner = () => {
   const categories = [
     {
       title: "Delicious Bangladeshi Dishes made, authentic Bangladeshi spices",
@@ -101,4 +101,4 @@ const CategorySlider = () => {
   );
 };
 
-export default CategorySlider;
+export default HeroBanner;
