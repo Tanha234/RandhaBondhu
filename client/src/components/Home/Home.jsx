@@ -3,7 +3,10 @@ import CategorySlider from './HeroBanner'
 
 function Home() {
   return (
-    <div><CategorySlider/></div>
+    <div><CategorySlider/>
+    
+    
+    </div>
   )
 }
 

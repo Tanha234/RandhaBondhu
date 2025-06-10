@@ -9,7 +9,9 @@ import juice from '../../images/adff694402db1d09870b6afe05695c79-removebg-previe
 import pitha from '../../images/pitha (3).png';
 import dish from '../../images/9655f06ce499e3efea6d97eed28bf46b-removebg-preview.png';
 import FeaturedRecipes from "./FeaturedRecipes";
-import BannerSection from "./BannerSection";
+
+import HowItWorksSection from "./HowItWorks";
+
 
 const HeroBanner = () => {
   const categories = [
@@ -153,7 +155,8 @@ const HeroBanner = () => {
 
 
 <FeaturedRecipes/>
-<BannerSection/>
+<HowItWorksSection/>
+
 
 
 
